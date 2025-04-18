@@ -9,8 +9,8 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Inherit some common Pixelage stuff.
-$(call inherit-product, vendor/pixelage/config/common_full_phone.mk)
+# Inherit some common komodo stuff.
+$(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
@@ -20,13 +20,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Pixelage
-PIXELAGE_BUILDTYPE := OFFICIAL
-PIXELAGE_MAINTAINER := clarencelol
+# komodo
+KOMODO_BUILDTYPE := OFFICIAL
+KOMODO_MAINTAINER := 𝐭𝐫𝐢𝐬𝐟 𝐩𝐫𝐨𝐣𝐞𝐜𝐭
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := pixelage_miatoll
+PRODUCT_NAME := komodo_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
